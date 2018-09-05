@@ -15,6 +15,7 @@ public class Config {
         return new Margeritta("Margeritta",25);
     }
 
+//    @Bean(name = "if I don't want to use method name in main class i can use this to change name")
     @Bean
     public Orders orders(Pizzas pizzas){
         return new Order(pizzas);
