@@ -1,12 +1,14 @@
 package com.example.implementation;
 
 import com.example.api.Pizzas;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 //@Primary
+//@Qualifier("capriPizza")
 public class Capri implements Pizzas {
 
     private String name;
