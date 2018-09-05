@@ -2,7 +2,9 @@ package com.example.implementation;
 
 import com.example.api.Orders;
 import com.example.api.Pizzas;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Order  implements Orders {
 
     private Pizzas pizzas;
